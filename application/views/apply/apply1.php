@@ -188,7 +188,7 @@
         </ul>
 
         <div class="kefu clearfix">
-            <p class="left"><span></span>请在 19分48秒 内提交订单</p>
+            <p class="left"><span></span>请在 20分 内提交订单</p>
             <p class="right">100%正品保证</p>
             <p class="right">七天无理由退货</p>
         </div>
@@ -244,7 +244,7 @@
                 </div>
             </div>
             <div class="submit-control clearfix">
-                <p>请在<span class="font-green">19分</span>内提交订单
+                <p>请在<span class="font-green">20分</span>内提交订单
                 <button type="submit">订单结算</button></p>
             </div>
 </form>

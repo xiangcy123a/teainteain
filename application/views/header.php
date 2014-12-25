@@ -206,7 +206,7 @@
             <div id="collapse1" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li><a class="faqi" href="<?=site_url()?>/index/faqi"> 发起项目</a></li>
-                    <li><a href="<?=site_url()?>/index/all_list"> 所有项目</a></li>
+                    <li><a href="<?=site_url()?>/index/all_list">最新周边</a></li>
                     <li><a href="bottom1"> 新手帮助</a></li>
                 </ul>
                 <ul class="nav navbar-nav user-pull-right" >

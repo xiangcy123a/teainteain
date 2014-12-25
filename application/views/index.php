@@ -68,7 +68,7 @@
     <div class="hot container clearfix ">
         <div class="hot-header clearfix">
             <h1 class="h1">人气预售</h1>
-            <span class="span">看看谁的预售项目最有魅力吧</span>
+            <span class="span"></span>
             <a class="more"  target="_blank"  href="<?=site_url()?>/index/all_list">更多产品</a>
         </div>
         <ul class="colorline1">
@@ -116,8 +116,8 @@
     
     <div class="new container clearfix">
         <div class="new-header clearfix">
-            <h1 class="h1">潮品专区</h1>
-            <span class="span">你是潮人吗，跟我一起装逼吧！</span>
+            <h1 class="h1">专题预售</h1>
+            <span class="span"></span>
             <a class="more"   target="_blank"  href="<?=site_url()?>/index/list_subject">更多专题</a>
         </div>
         <ul class="colorline1">

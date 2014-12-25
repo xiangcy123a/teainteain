@@ -330,6 +330,7 @@
             </table>
             <p class="order-price">运费：￥10:00(查看运费说明)&nbsp;&nbsp;&nbsp;&nbsp;  本订单金额：<span class="price">￥2967</span></p>
         </div>
+        <form action="<?=base_url()?>static/alipay/alipayapi.php" method="post">
         <div class="order-submit">
             <div class="left">
                 <p>运送信息：将小米  浙江宁波是市江东区 桃园街</p>
@@ -340,11 +341,14 @@
                 <p>运费：<span>￥10</span></p>
                 <p class="daizhifu">待支付：<span>￥2999</span></p>
             </div>
+                            <input type="hidden" name="WIDtotal_fee" value="<?=$cloth?$cloth->price*$num:'0'?>" />
+                <input type="hidden" name="WIDsubject" value="<?=$cloth?$cloth->title:'缇音科技'?>" />
+                 <input type="hidden" name="WIDout_trade_no" value="<?=$goods_id?>" /> <!-- goods_id -->
             <div class="right">
                 <button class="submit">提交订单</button>
             </div>
         </div>
-
+        </form>
 
 
 
