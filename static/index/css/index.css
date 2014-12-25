@@ -1,0 +1,363 @@
+
+        ul.colorline2{
+            height: 10px;
+            list-style-type: none;
+            padding:0px;
+            margin:0px;
+        }
+        ul.colorline2 li{
+            float: left;
+        }
+        
+        .bothimg{
+
+        }
+        .bothimg a{
+            display: block;
+            float: left;
+        }
+        
+
+        .bothimg .left-img{
+            width: 50%;
+        }
+
+        .bothimg .right-img{
+            width: 50%;
+        }
+        .bothimg img{
+            width: 100%;
+            display: block;
+        }
+
+
+
+        .hot{
+
+        }
+        .hot-header{
+
+        }
+        .hot-header .h1{
+            float: left;
+            font-weight: 900;
+            font-family: '微软雅黑';
+            letter-spacing: 5px;
+        }
+        .hot-header .span{
+            float: left;
+            margin-top: 40px;
+             font-family: '微软雅黑';
+             margin-left: 5px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+        .hot-header .more{
+            float: right;
+            color: #2ed4ac;
+            margin-top: 40px;
+            font-family: '微软雅黑';
+            letter-spacing: 2px;
+        }
+        .hot-header .more:hover{
+            text-decoration: none;
+        }
+        .hot-list{
+            /*padding-top: 20px;*/
+            padding-bottom: 20px;
+        }
+        .hot-item{
+            margin-top: 40px;
+            border:1px solid #ccc;
+            border-radius: 12px;
+            float: left;
+            width: 220px;
+            background: rgb(250,250,250);
+            /*height: 375px;*/
+            overflow: hidden;
+            margin-right: 16px;
+            position: relative;
+            transition:all .5s ease-in-out .0s;
+
+        }
+        .hot-item:hover{
+            box-shadow: 0px 0px 10px #ccc;
+        }
+        .hot-item .hot-love{
+            position: absolute;
+            top: 12px;
+            right: 12px;
+        }
+        .hot-item .hot-love .hot-love-num{
+            position: absolute;
+            top: 2px;
+            left: 28px;
+            color: #f2355d;
+            font-weight: bold;
+        }
+        .hot-item.last{
+            margin-right: 0px;
+        }
+        .hot-item .pro{
+            height: 7px;
+            width: 100%;
+        }
+        .hot-item .pvalue{
+            height: 100%;
+            /*background: red;*/
+            /*width: 30%;*/
+        }
+        .hot-title{
+            padding: 6px 10px 3px 10px;
+            margin: 0px;
+            font-weight: 900;
+
+        }
+
+        .hot-author{
+            padding:  3px 10px 6px 10px;
+            margin: 0px;
+            color: #999;
+        }
+        .hot-item .ul-title{
+            list-style-type: none;
+            margin:0px;
+            padding: 0px;
+            background: #ddd;
+            padding-top: 10px;
+        }
+        .hot-item .ul-title li{
+            font-size: 0.9em;
+            width: 33%;
+            text-align: center;
+            list-style-type: none;
+            float: left;
+            color: #999;
+        }
+        .hot-item .ul-con{
+            list-style-type: none;
+            margin:0px;
+            padding: 0px;
+            background: #ddd;
+            padding-bottom: 10px;
+        }
+        .hot-item .ul-con li{
+            font-size: 1em;
+            width: 33%;
+            text-align: center;
+            list-style-type: none;
+            float: left;
+            font-weight: 900;
+
+        }
+        .hot-item .thumb{
+            border:none;
+        }
+
+
+        .new{
+
+        }
+        .new-header{
+
+        }
+        .new-header .h1{
+            float: left;
+            font-weight: 900;
+            font-family: '微软雅黑';
+            letter-spacing: 5px;
+        }
+        .new-header .span{
+            float: left;
+            margin-top: 40px;
+             font-family: '微软雅黑';
+             margin-left: 5px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+        .new-header .more{
+            float: right;
+            color: #2ed4ac;
+            margin-top: 40px;
+            font-family: '微软雅黑';
+            letter-spacing: 2px;
+        }
+        .new-header .more:hover{
+            text-decoration: none;
+        }
+
+        .new-list{
+
+        }
+        .new-list .new-item{
+            margin-top: 30px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .new-item .thumb{
+            float: left;
+            width: 60%;
+            position: relative;
+        }
+        .new-item .thumb>img{
+            width: 100%;
+            
+        }
+        .new-item .thumb .new-hot{
+            position: absolute;
+            left:0px;
+            top:-6px;
+        }
+        .new-item .desc{
+            width: 38%;
+            float: right;
+        }
+        .new-item .desc .header{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f2355d;
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .new-item .desc .description{
+            color: #aaa;
+            padding-top: 20px;
+
+        }
+        .new-item .desc a.look{
+            position: absolute;
+            bottom: 0px;
+            right: 10px;
+            color: white;
+            background-color: #f2355d;
+            padding:8px 20px 4px 20px;
+            border-radius: 5px;
+
+        }
+        .new-item .desc a.look:hover{
+            text-decoration: none;
+        }
+        .new-item .desc span.have{
+
+            position: absolute;
+            bottom: 13px;
+            right: 255px;
+
+        }
+        .new-item.desc span.have strong{
+            font-size: 1.7em;
+            color: #f2355d;
+        }
+
+
+        .mycarousel{
+            margin-top: 40px;
+            /*border:1px solid red;*/
+            height: 276px;
+
+        }
+        .mycarousel .left-con{
+            float: left;
+            width: 89%;
+
+
+        }
+        .mycarousel .left-con .thumb{
+            float: left;
+            width: 55%;
+        }
+        .mycarousel .left-con .thumb img{
+            width: 100%;
+            height: 100%;
+        }
+        .mycarousel .left-con .desc{
+            float: right;
+            width: 43%;
+            color:#999;
+            height: 276px;
+            
+            
+
+           
+        }
+        .mycarousel .left-con .desc .title{
+            font-size: 1.5em;
+            color: #000;
+            font-weight: 900;
+            font-family: '微软雅黑';
+        }
+        .mycarousel .left-con .desc .author{
+            padding-bottom: 20px;
+            padding-top: 10px;
+            color: #999;
+            font-weight: bolder;
+        }
+        .mycarousel .left-con .desc .description{
+            font-size: 1em;
+            height: 130px;
+            overflow: hidden;
+        }
+        .mycarousel .left-con .desc .pro-title{
+            /*position: absolute;*/
+            /*bottom: 0px;*/
+
+        }
+        .mycarousel .left-con .desc .pro-title li{
+            float: left;
+            width: 33%;
+            border-top: 1px solid #ddd;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 0.9em;
+        }
+        .mycarousel .left-con .desc .pro-con li{
+            float: left;
+            width: 33%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 1.1em;
+            font-weight: 900;
+            color: #000;
+        }
+        .mycarousel .right-list{
+            float: right;
+            width: 8%;
+            height: 100%;
+        }
+        .mycarousel .right-list ul{
+            height: 100%;
+        }
+        .mycarousel .right-list ul li{
+            padding-left: 20px;
+            height: 25%;
+            font-family: '微软雅黑';
+            font-weight: 700;
+            line-height: 69px;
+            cursor: pointer;
+        }
+
+        .mycarousel .right-list ul li.doubi1{
+            border-left: 2px solid #2ed4ac;
+        }
+        .mycarousel .right-list ul li.doubi1.active{
+            color: #2ed4ac;
+        }
+
+        .mycarousel .right-list ul li.doubi2{
+            border-left: 2px solid  #f3bd39;
+        }
+        .mycarousel .right-list ul li.doubi2.active{
+            color: #f3bd39;
+        }
+        .mycarousel .right-list ul li.doubi3{
+            border-left: 2px solid  #f2355d;
+        }
+        .mycarousel .right-list ul li.doubi3.active{
+            color: #f2355d;
+        }
+        .mycarousel .right-list ul li.doubi4{
+            border-left: 2px solid #17598b;
+        }
+        .mycarousel .right-list ul li.doubi4.active{
+            color: #17598b;
+        }

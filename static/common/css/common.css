@@ -1,0 +1,254 @@
+        *{
+            font-family: '微软雅黑';
+        }
+        a{
+            color: #333333;
+        }
+        a:hover{
+            color: #333333;
+            text-decoration: none;
+        }
+        .blue{
+            background: #17598b;
+        }
+        .green{
+            background: #2ed4ac;
+        }
+        .yellow{
+            background: #f3bd39;
+        }
+        .red{
+            background: #f2355d;
+        }
+
+        .line-blue{
+            background: #17598b;
+            width: 25%;
+            height: 100%;
+        }
+        .line-green{
+            background: #2ed4ac;
+             width: 25%;
+             height: 100%;
+        }
+        .line-yellow{
+            background: #f3bd39;
+             width: 25%;
+             height: 100%;
+        }
+        .line-red{
+            background: #f2355d;
+             width: 25%;
+             height: 100%;
+        }
+        ul,li{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        .navbar{
+            margin-bottom: 0px;
+            color: white;
+            line-height: 50px;
+            border:none;
+        }
+        .nav li:hover,.nav li a:hover{
+            background: none;
+
+        }
+        .nav .login{
+            background: rgb(47,213,173);
+
+        }
+        .nav .login:hover{
+            background: rgb(47,213,173);
+        }
+        .nav .login a{
+             color: white;
+        }
+        .nav .login a:hover{
+            color:white;
+        }
+        ul.navbar-nav li{
+            margin-left: 30px;
+            text-align: center;
+        }
+        .navbar-header{
+            /*float: left;*/
+        }
+
+        .navbar-toggle{
+            background: #2ed4ac;
+           
+            float: left;
+            /*border:2px solid #000;*/
+        }
+        .navbar-toggle .icon-bar{
+            background: #fff;
+        }
+
+        ul.colorline1{
+            height: 2px;
+            padding:0px;
+            margin:0px;
+            list-style-type: none;
+        }
+        ul.colorline1 li{
+            float: left;
+        }
+
+footer{
+            background: rgb(34,52,64);
+            color: rgb(235,235,235) !important;
+            padding-top: 30px;
+            /*padding-bottom: 30px;*/
+        }
+        footer .copy{
+            margin:0px;
+            background: #fff;
+            margin-top: 30px;
+            color: #333;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            font-family: '微软雅黑';
+            font-size: 12px;
+
+        }
+        .footer-list{
+            border-left: 1px solid #fff;
+            text-align: center;
+        }
+        .list-header{
+            font-size: 14px;
+            font-weight: bolder;
+        }
+        .list-item{
+            font-size: 12px;
+            color:rgb(235,235,235);
+
+        }
+
+
+        .modal{
+            text-align: center;
+        }
+        .modal-content{
+            border-radius: 0;
+        }
+        .color-black{
+            color: #000;
+        }
+        .modal-dialog{
+            width:400px;
+        }
+        #login .modal-header{
+            height: 120px;
+            background: rgb(47,213,173);
+        }
+        .input-group{
+            width:80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+        .username {
+            width:100% !important;
+            padding-top: 18px;
+            padding-bottom: 18px;
+        }
+
+        .passwd{
+            width:100% !important;
+            /*padding-top: 18px;
+            padding-bottom: 18px;*/
+        }
+
+         .code{
+            border-radius: 0px;
+            width:120px !important;
+        }
+        .submit{
+            color:white;
+            font-size: 20px;
+            font-weight: bolder;
+            background: rgb(47,213,173);
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 110px;
+            padding-right: 110px;
+            margin-left: auto;
+            margin-right: auto;
+            border:none;
+            border-radius: 6px;
+
+        }
+        .forget{
+            float: left;
+            color: #333;
+        }
+        .forget:hover{
+             color: rgb(47,213,173);
+            text-decoration: underline;
+        }
+        .create{
+            float: right;
+            color: #333;
+        }
+        .create:hover{
+             color: rgb(47,213,173);
+            text-decoration: underline;
+        }
+
+
+         .modal-header{
+            height: 120px;
+            background: rgb(47,213,173);
+        }
+        .exit{
+            color: rgb(47,213,173);
+            text-decoration: underline;
+        }
+        .link{
+            color: rgb(47,213,173);
+            text-decoration: underline;
+        }
+        .unlook{
+            vertical-align: -webkit-baseline-middle;text-decoration:underline;margin-left:-50px;color:#000;
+        }
+        .unlook:hover{
+             color: rgb(47,213,173);
+            text-decoration: underline;
+        }
+        @media (min-width:768px){
+            .user-pull-right{
+                float: right;
+            }
+        }
+
+        @media (max-width:768px){
+            .user-pull-right{
+                float: none ;
+            }
+        }
+
+
+
+        .my-arrow{
+            /*background: red;*/
+            border-top-color: rgb(240,52,91) !important;
+        }
+        .my-tooltip-inner{
+            background: rgb(240,52,91);
+        }
+
+@media (min-width: 1200px){
+    .container {
+        width: 960px ;
+    }
+}
+
+
+ 

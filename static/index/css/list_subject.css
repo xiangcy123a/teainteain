@@ -1,0 +1,97 @@
+
+        .new{
+
+        }
+        .new-header{
+
+        }
+        .new-header .h1{
+            float: left;
+            font-weight: 900;
+            font-family: '微软雅黑';
+            letter-spacing: 5px;
+        }
+        .new-header .span{
+            float: left;
+            margin-top: 40px;
+             font-family: '微软雅黑';
+             margin-left: 5px;
+            letter-spacing: 2px;
+            font-weight: 700;
+        }
+        .new-header .more{
+            float: right;
+            color: #2ed4ac;
+            margin-top: 40px;
+            font-family: '微软雅黑';
+            letter-spacing: 2px;
+        }
+        .new-header .more:hover{
+            text-decoration: none;
+        }
+
+        .new-list{
+
+        }
+        .new-list .new-item{
+            margin-top: 30px;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .new-item .thumb{
+            float: left;
+            width: 60%;
+            position: relative;
+        }
+        .new-item .thumb>img{
+            width: 100%;
+            
+        }
+        .new-item .thumb .new-hot{
+            position: absolute;
+            left:0px;
+            top:-5px;
+        }
+        .new-item .desc{
+            width: 38%;
+            float: right;
+        }
+        .new-item .desc .header{
+            padding-top: 8px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f2355d;
+            font-size: 1.8em;
+            font-weight: 700;
+        }
+        .new-item .desc .description{
+            color: #aaa;
+            padding-top: 20px;
+
+        }
+        .new-item .desc a.look{
+            position: absolute;
+            bottom: 0px;
+            right: 10px;
+            color: white;
+            background-color: #f2355d;
+            padding:8px 20px 4px 20px;
+            border-radius: 5px;
+
+        }
+        .new-item .desc a.look:hover{
+            text-decoration: none;
+        }
+        .new-item .desc span.have{
+
+            position: absolute;
+            bottom: 13px;
+            right: 255px;
+
+        }
+        .new-item.desc span.have strong{
+            font-size: 1.7em;
+            color: #f2355d;
+        }
+
+
+        
