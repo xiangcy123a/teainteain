@@ -192,7 +192,7 @@
 <nav class="navbar clearfix">
         <div class="container">
             <div class="navbar-header" style="text-align: center;">
-                <a href="<?=site_url()?>/index/home"><img src="<?=base_url()?>static/index/images/logo.jpg" alt="">
+                <a href="<?=site_url()?>/index/home"><img src="<?=base_url()?>static/index/images/logo.jpg" alt="" height="18px">
                 </a>
                 
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse1">
