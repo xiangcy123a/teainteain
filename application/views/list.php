@@ -175,7 +175,7 @@
             right: 40px;
             top: 500px;
             cursor: pointer;
-            background: red;
+
 
         }
     </style>
@@ -202,7 +202,7 @@
                 <?php foreach($list as $key=>$val):?>
                 <a href="<?=site_url()?>/index/more_info?cloth_id=<?=$val->cloth_id?>" target="_blank">
                 <div class="hot-item  col-md-3 col-xs-6 <?=($key+1)%4==0?' last hot-item-last':''?>">
-                        <img class="thumb" src="" width="100%" height="270" alt="">
+                        <img class="thumb" src="<?=base_url()?>upload/img/<?=$val->cloth_id?>/1.jpg" width="100%" height="270" alt="">
                         <div class="pro">
                             <div class="pvalue  blue" style="width:<?=(100*$val->got)/$val->amount?>%;"></div>
                         </div>
@@ -238,7 +238,7 @@
         </div>
     </div>
 
-    <div class="totop" style="display:none;"></div>
+    <div class="totop" style="display:none;"><img src="<?=base_url()?>static/common/images/to_top.png"></div>
      <?php 
         $this->load->view('footer.php');
     ?>
