@@ -15,7 +15,7 @@
         <li class="line-green"></li>
         <li class="line-yellow"></li>
         <li class="line-red"></li>
-        <li class="line-blue"></li>        
+        <li class="line-blue"></li>
     </ul>
 
     <div class="mycarousel container clearfix">

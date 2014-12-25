@@ -35,7 +35,20 @@ class Index extends CI_Controller {
         }
 
     }
-	
+    public function index()
+    {     
+        $cloths=$this->cloth_model->selectByTime(8);
+        $carousel=$this->cloth_model->selectByIds(array(15,32,43,45));//人气
+        $subjects=$this->project_list_model->selectByIds(array(1,2));//专题
+
+        //var_dump($subjects);exit;
+        $data=array(
+            'cloths'=>$cloths,
+            'carousel'=>$carousel,
+            'subjects'=>$subjects
+        );
+        $this->load->view('index.php',$data);
+    }
 	public function home()
 	{     
         $cloths=$this->cloth_model->selectByTime(8);
